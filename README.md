@@ -12,7 +12,12 @@ youtube link:-https://youtu.be/y_zIa9eX9FQ
 
 
 
-https://user-images.githubusercontent.com/81574700/120655304-2b961680-c4a0-11eb-96e7-c48f1f6d14c5.mov
+https://user-images.githubusercontent.com/81574700/120674196-7c623b00-c4b1-11eb-880c-ecbf2a6ca2a3.mov
+
+
+
+
+<!-- https://user-images.githubusercontent.com/81574700/120655304-2b961680-c4a0-11eb-96e7-c48f1f6d14c5.mov -->
 
 For Demo use :-</br>
  <br>
@@ -20,6 +25,7 @@ For Demo use :-</br>
  5104 0600 0000 0008</br>
  <br>
 -Visa Domestic</br>
+
  4111 1111 1111 1111</br>
  <br>
 -Mastercard International</br>
