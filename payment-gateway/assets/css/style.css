@@ -1,0 +1,415 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+nav{
+    width: 100%;
+    height: 13vh;
+    background:rgba(0,0,0,0.3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'New Tegomin', serif;
+}
+nav .logo{
+    width: 25%;
+    text-align:center;
+    font-weight:bolder;
+    font-size: larger;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav .menu a{
+    width: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+nav .menu a:nth-child(3){
+      color: #00b894;
+}
+
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+
+
+.d-grid {
+  display: grid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button,
+select {
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+button,
+.btn,
+select {
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Section top bottom gap */
+.section-gap {
+  padding: 4.5rem 0;
+}
+
+@media screen and (max-width:767px) {
+  .section-gap {
+    padding: 3.5rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .section-gap {
+    padding: 3rem 0;
+  }
+}
+
+/* / Section top bottom gap */
+
+/* title-styling */
+h3.global-title {
+  font-size: 40px;
+  line-height: 45px;
+  color: #16191e;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) {
+  h3.global-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  h3.global-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  h3.global-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+/* / title-styling */
+
+.contant11-top-bg {
+  background: url('../images/cimg.jpg') no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-info h4 {
+  font-size: 20px;
+  color: #000;
+  margin: 10px 0 5px 0;
+}
+
+.contact-info-left {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.contact-info {
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #636363;
+  line-height: 24px;
+}
+
+.contact a {
+  display: block;
+  color: #636363;
+}
+
+.contact {
+  grid-template-columns: 1fr;
+}
+
+.contact a:hover {
+  display: block;
+  color: #002663;
+}
+
+.contact span.fa {
+  font-size: 40px;
+  color: #002663;
+  margin-bottom: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 450px;
+}
+
+@media (max-width: 1024px) {
+  .contact-info-left {
+    grid-gap: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .contact-info-left {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 800px) {
+  .contact a {
+    font-size: 16px;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .map {
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  img {
+    height: 280px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contact p {
+    font-size: 15px;
+  }
+}
+
+/*--//responsive--*/
+
+.align-form-pic {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+}
+
+h3.cont-head {
+  font-size: 35px;
+  line-height: 40px;
+  color: #002663;
+  margin-bottom: 35px;
+}
+
+form.signin-form {
+  text-align: left;
+}
+
+.form-input {
+  margin-bottom: 15px;
+}
+
+.form-inner-cont label {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #636363;
+  display: block;
+}
+
+.form-inner-cont input,
+.form-inner-cont textarea {
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  padding: 0px 15px;
+  margin-bottom: 25px;
+  color: #304659;
+  height: 45px;
+  text-align: left;
+  -webkit-appearance: none;
+  background: #ffffff;
+  display: grid;
+  grid-template-columns: .1fr 1fr;
+  align-items: center;
+  padding-left: 15px;
+  border: 1px solid rgba(31, 94, 180, 0.22);
+  border-radius: 4px;
+}
+
+.form-inner-cont input:focus,
+.form-inner-cont textarea:focus {
+  border: 1px solid #002663;
+}
+
+.form-inner-cont textarea {
+  height: 125px;
+  resize: none;
+  padding: 15px 15px;
+}
+
+.btn-contact {
+  min-width: 130px;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-appearance: none;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+  background: #fff;
+  padding: 14px 18px;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  border: 1px solid #002663;
+  width: 100%;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.btn-contact:hover {
+  background: #002663;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid #f5f5f5;
+  border-radius: 4px;
+}
+
+
+@media all and (max-width: 1280px) {
+  .form-41-mian {
+    padding: 4em 0;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .align-form-pic {
+    grid-gap: 60px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .align-form-pic {
+    grid-gap: 60px;
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    height: 350px;
+  }
+}
+
+@media all and (max-width: 590px) {
+  h3.cont-head {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  img {
+    height: 300px;
+  }
+}
